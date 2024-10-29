@@ -1,0 +1,8 @@
+[package]
+name = "rust-hpc-serverless-computing"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.20", features = ["derive"] }
+ssh2 = "0.9.4"
